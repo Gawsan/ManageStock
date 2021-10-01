@@ -1,0 +1,62 @@
+.Clients {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .Clients td, .Clients th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .Clients tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .Clients tr:hover {background-color: rgba(221, 221, 221, 0.37);}
+  
+  .Clients th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #afa04c;
+    color: white;
+  }
+
+
+
+  input[type='submit']{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15;
+  }
+
+  input[type="submit"]:hover{
+    background-color: rgb(233, 30, 30);
+    text-decoration: none;
+  }
+.New_user{
+  background-color: rgba(11, 58, 65, 0.842);
+  width: 80%;
+  position:relative;
+  height: 50px;
+ text-decoration: none;
+  
+}
+
+.New_user i{
+  align-items: center;
+  margin-right: -80%;
+  color:rgb(252, 250, 250);
+  margin-top: 1.5%;
+  
+}
+
+.New_user i:hover{
+  color:red;
+  text-decoration: none;
+}
+
