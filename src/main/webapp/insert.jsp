@@ -103,7 +103,7 @@
 	</div>
 	
 	<footer class="page-footer font-small navbar-dark bg-dark" style="color:#ffffff; left: 0; bottom: 0; width: 100%; margin-top: 20px;">
-		<div class="footer-copyright text-center py-3">2021 Copyright</div>
+		<div class="footer-copyright text-center py-3">&copy;2021 DreamCity full rights reserved</div>
 	</footer>
 	
 </body>

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
 <html>
@@ -52,6 +52,7 @@
 							
 					</div>
 				</form>	
+				<!-- View all product form -->
 					<form action="ViewAll" method="post">
 			<input type="submit" class="btn btn-success btn-block" value="View ALL Product">
 			</form>
@@ -147,13 +148,10 @@
 				</tbody>
 			</table>
 		</div>
-		
 		<br><br>
 	   
-	
-	
 	<footer class="page-footer font-small navbar-dark bg-dark" style="color:#ffffff; position: fixed; left: 0; bottom: 0; width: 100%;">
-		<div class="footer-copyright text-center py-3">2021 Copyright</div>
+		<div class="footer-copyright text-center py-3">COPYRIGHT &copy;DreamCiry. ALL RIGHTS RESERVED.</div>
 	</footer>
 	
 </body>
