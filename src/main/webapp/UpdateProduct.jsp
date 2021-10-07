@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 	<link rel="stylesheet" href="style/universal_style.css">
+	 <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+	
 	<title>UpdateProduct</title>
 </head>
 <body>
