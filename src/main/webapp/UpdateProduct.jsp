@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 	<link rel="stylesheet" href="style/universal_style.css">
+	 <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+	
 	<title>UpdateProduct</title>
 </head>
 <body>
@@ -44,7 +46,6 @@
 	String loc=(request.getParameter("loc"));
 	int qty=Integer.parseInt(request.getParameter("qty"));
 	int unit=Integer.parseInt(request.getParameter("unit"));
-	
 	%>
 	
 	<div class="container" style="max-width: 800px; box-shadow: 5px 10px 18px #888888;">
@@ -118,5 +119,5 @@
 	</div>
 	
 	<footer class="page-footer font-small navbar-dark bg-dark" style="color:#ffffff; left: 0; bottom: 0; width: 100%; margin-top: 20px;">
-		<div class="footer-copyright text-center py-3">2021 Copyright</div>
+		<div class="footer-copyright text-center py-3">&copy;COPYRIGHT &copy;DreamCiry. ALL RIGHTS RESERVED.</div>
 		</footer>

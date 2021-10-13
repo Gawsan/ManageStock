@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-	<link rel="stylesheet" href="css/universal_style.css">
+	<link rel="stylesheet" href="style/universal_style.css">
+	 <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+	
 	<title>Item List</title>
 </head>
 <body>
@@ -52,6 +54,7 @@
 							
 					</div>
 				</form>	
+				<!-- View all product form -->
 					<form action="ViewAll" method="post">
 			<input type="submit" class="btn btn-success btn-block" value="View ALL Product">
 			</form>
@@ -147,13 +150,10 @@
 				</tbody>
 			</table>
 		</div>
-		
 		<br><br>
 	   
-	
-	
 	<footer class="page-footer font-small navbar-dark bg-dark" style="color:#ffffff; position: fixed; left: 0; bottom: 0; width: 100%;">
-		<div class="footer-copyright text-center py-3">2021 Copyright</div>
+		<div class="footer-copyright text-center py-3">COPYRIGHT &copy;DreamCiry. ALL RIGHTS RESERVED.</div>
 	</footer>
 	
 </body>
